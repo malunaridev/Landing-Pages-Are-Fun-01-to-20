@@ -1,0 +1,165 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fdfdff;
+    margin: 0;
+    max-width: 100vw;
+}
+
+main {
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+#image-section {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+#social-media ul {
+    font-size: 7rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#social-media i {
+    color:#7fdbbb;
+    border: .2rem solid #7fdbbb;
+    padding: .5rem;
+    border-radius: 6rem;
+    list-style-type: none;
+}
+
+.header-image {
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#contentnav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+
+#navmenu ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+#navmenu li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.7rem;
+    list-style-type: none;
+}
+
+#navmenu li a {
+    color: #303c4e;
+    text-decoration: none;
+}
+
+#navmenu li a:hover {    
+    color:#7fdbbb;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 5vh;
+}
+
+#content-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: end;
+    padding-right: 3rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8rem;
+    line-height: 7rem;
+    color: #303c4e;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+button {
+    background-color: #7fdbbb;
+    padding: 0.5rem 2rem;
+    border: .1rem solid #7fdbbb;
+    border-radius: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #303c4e;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: #50b893;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+#footer {
+    display: flex;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+#contacts {
+    text-align: end;
+    padding-right: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#phone, #adress {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #303c4e;
+}
+
+#phone span {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #7fdbbb;
+    letter-spacing: 0.2rem;
+}
+
+.icons {
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
