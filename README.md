@@ -12,7 +12,11 @@ This is a personal project where I build some landing pages for fun. It helps me
 |         |             |    |
 | :-------------:|:-------------:| :-------------:|
 | ![Landing page 1](assets/Readme-LP1.png) | ![Landing page 2](assets/Readme-LP2.png)  |
-| Landing Page #1: Business Agency Concept      | Landing Page #2: Business Agency Concept 2  |
-| **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/1-business-agency-concept) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept.vercel.app/) | **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/2-business-agency-concept-2) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept-2.vercel.app/) |
+| Landing Page #1: Business Agency Concept      | Landing Page #2: Business Agency Concept 2  
+| **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/1-business-agency-concept) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept.vercel.app/) | **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/2-business-agency-concept-2) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept-2.vercel.app/) 
+
+<br />
+<br />
+<br />
 
 ![A pretty README footer](assets/Readme-Footer.png)
