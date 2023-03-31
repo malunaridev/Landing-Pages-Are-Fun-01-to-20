@@ -1,7 +1,7 @@
 ![A pretty README header](assets/Readme-Header.png)
+<br />
+<br />
 ![What is this about?](assets/Readme-What-is-this.png)
-<br />
-<br />
 
 This is a personal project where I build some landing pages for fun. It helps me to learn new things, test new technologies and keep my portfolio growing everyday. All the landing pages examples were found on internet: none of them were designed by me. As my knowledge grow, I will keep coming back to old projects to apply new features and keep improving my skills. Why don't you take a look?
 <br />
