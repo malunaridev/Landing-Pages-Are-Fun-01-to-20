@@ -27,6 +27,8 @@ main {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-left: 2rem;
 }
 
 #social-media i {
@@ -46,7 +48,8 @@ main {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  padding-right: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 #contentnav {
@@ -178,8 +181,7 @@ button:hover {
   }
 
   #content {
-    padding-left: 0rem;
-    padding-right: 1rem;
+    margin-right: 0rem;
   }
 
   .logo {
@@ -197,6 +199,7 @@ button:hover {
 
 #navmenu ul {
   justify-content: flex-end;
+  padding-left: 2rem;
 }
 
 #navmenu li + li {
@@ -213,9 +216,8 @@ button {
 
 .header-image {
   height: auto;
-  width: 37rem;
+  width: 33rem;
   opacity: .5;
-  padding-right: 3rem;
 }
 
 #image-section {
