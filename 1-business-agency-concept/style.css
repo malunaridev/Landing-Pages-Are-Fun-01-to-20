@@ -46,7 +46,7 @@ main {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  padding-right: 20px;
+  padding-right: 3rem;
 }
 
 #contentnav {
@@ -164,4 +164,66 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+}
+
+
+@media (max-width: 600px) {
+  * {
+    font-size: 60%;
+  }
+  
+ main {
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  #content {
+    padding-left: 0rem;
+    padding-right: 1rem;
+  }
+
+  .logo {
+    height: 4rem;
+    margin-top: 5rem;
+  }
+
+#contentnav {
+  width: 40rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+#navmenu ul {
+  justify-content: flex-end;
+}
+
+#navmenu li + li {
+  margin-left: 2rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+button {
+  margin-bottom: 3rem;
+}
+
+.header-image {
+  height: auto;
+  width: 37rem;
+  opacity: .5;
+  padding-right: 3rem;
+}
+
+#image-section {
+  min-height: 0vh;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+  
+} 
+  
 }
