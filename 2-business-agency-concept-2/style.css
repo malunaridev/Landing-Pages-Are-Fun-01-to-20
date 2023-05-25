@@ -41,9 +41,9 @@ nav {
   list-style-type: none;
   display: flex;
   gap: 2rem;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 #social-media i {
@@ -105,4 +105,13 @@ button:hover {
   cursor: pointer;
   color: white;
   transition: 0.5s;
+}
+
+@media (max-width: 1270px) {
+  * {
+    font-size: 60%;
+  }
+  #content-text {
+    padding-left: 6rem;
+  }
 }

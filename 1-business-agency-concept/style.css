@@ -109,6 +109,7 @@ h2 {
   font-weight: 300;
   font-size: 2rem;
   line-height: 2.5rem;
+  width: 40rem;
 }
 
 button {
@@ -169,13 +170,12 @@ button:hover {
   gap: 2rem;
 }
 
-
 @media (max-width: 600px) {
   * {
     font-size: 60%;
   }
-  
- main {
+
+  main {
     flex-direction: column-reverse;
     width: auto;
   }
@@ -189,43 +189,41 @@ button:hover {
     margin-top: 5rem;
   }
 
-#contentnav {
-  width: 40rem;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 1rem;
-  padding-top: 3rem;
-}
+  #contentnav {
+    width: 40rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-top: 3rem;
+  }
 
-#navmenu ul {
-  justify-content: flex-end;
-  padding-left: 2rem;
-}
+  #navmenu ul {
+    justify-content: flex-end;
+    padding-left: 2rem;
+  }
 
-#navmenu li + li {
-  margin-left: 2rem;
-}
+  #navmenu li + li {
+    margin-left: 2rem;
+  }
 
-h1 {
-  font-size: 7rem;
-}
+  h1 {
+    font-size: 7rem;
+  }
 
-button {
-  margin-bottom: 3rem;
-}
+  button {
+    margin-bottom: 3rem;
+  }
 
-.header-image {
-  height: auto;
-  width: 33rem;
-  opacity: .5;
-}
+  .header-image {
+    height: auto;
+    width: 33rem;
+    opacity: 0.5;
+  }
 
-#image-section {
-  min-height: 0vh;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0rem;
-  
-} 
-  
+  #image-section {
+    min-height: 0vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0rem;
+  }
 }
