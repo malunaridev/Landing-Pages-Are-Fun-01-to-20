@@ -19,7 +19,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 nav {
@@ -44,44 +43,149 @@ a:last-child {
 }
 
 .heading {
-    width: 90rem;
-    position: relative;
+  width: 90rem;
+  position: relative;
 }
 
 h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 13rem; 
-    text-transform: uppercase;
-    line-height: 10rem;
- }
+  font-family: "Roboto", sans-serif;
+  font-size: 13rem;
+  text-transform: uppercase;
+  line-height: 10rem;
+}
 
- h1 u {
-    font-size: 13rem;
-    text-underline-offset: 2rem;
- }
+h1 u {
+  font-size: 13rem;
+  text-underline-offset: 2rem;
+}
 
- .circle-text {
-    width: 20rem;
-    position: absolute;
-    top: 3rem;
-    right: 0;
- }
+.circle-text {
+  width: 20rem;
+  position: absolute;
+  top: 3rem;
+  right: 0;
+}
 
- h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 3rem; 
-    font-weight: 300;
- }
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
 
- button {
-    width: 19rem;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem; 
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 1rem 4rem;
-    border-radius: 4rem;
-    border: .3rem solid black;
-    background-color: transparent;
-    cursor: pointer;
- }
+button {
+  width: 19rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+  border: 0.3rem solid black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 1320px) {
+  * {
+    font-size: 50%;
+  }
+  main {
+    padding: 7rem 12rem;
+  }
+}
+
+@media (max-width: 930px) {
+  * {
+    font-size: 45%;
+  }
+  main {
+    padding: 9rem 11rem;
+  }
+}
+
+@media (max-width: 790px) {
+  * {
+    font-size: 55%;
+  }
+  main {
+    padding: 6rem 5rem;
+  }
+  nav {
+    gap: 5rem;
+  }
+  .heading {
+    width: 60rem;
+  }
+  h1,
+  u {
+    font-size: 8rem;
+  }
+  h1 u {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 680px) {
+  * {
+    font-size: 45%;
+  }
+  main {
+    padding: 9rem 3rem;
+  }
+}
+
+@media (max-width: 465px) {
+  * {
+    font-size: 40%;
+  }
+  main {
+    padding: 15rem 3rem;
+  }
+}
+
+@media (max-width: 415px) {
+  * {
+    font-size: 55%;
+  }
+  main {
+    padding: 8rem 2rem;
+    background-position-x: 2rem;
+  }
+  nav {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  a:last-child {
+    flex-grow: unset;
+    text-align: unset;
+  }
+  .heading {
+    width: 40rem;
+  }
+  h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  h1 u {
+    font-size: 5rem;
+    text-underline-offset: 1rem;
+  }
+  .circle-text {
+    width: 15rem;
+    top: 1rem;
+    right: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 345px) {
+    * {
+      font-size: 50%;
+    }
+    main {
+        padding: 12rem 2rem;
+      }
+}
