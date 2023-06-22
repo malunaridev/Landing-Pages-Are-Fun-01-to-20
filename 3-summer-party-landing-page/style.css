@@ -1,0 +1,251 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/background.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 6rem;
+}
+
+main {
+  width: 100%;
+  height: 90%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6rem;
+  padding-right: 3rem;
+}
+
+#logo {
+  width: 25rem;
+}
+
+#social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon,
+.navigation-icon {
+  width: 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+ul {
+  display: flex;
+  gap: 7rem;
+}
+
+li {
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+section {
+  padding: 3rem;
+}
+
+#navigation-icons {
+  display: flex;
+  gap: 3rem;
+}
+
+#information-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+div {
+  text-align: right;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+div h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+h3 {
+  width: 52rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: right;
+}
+
+h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+button {
+  padding: 1rem 5rem;
+  background-color: black;
+  border: 0;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+#date-section {
+  position: absolute;
+  bottom: 8rem;
+  right: 85rem;
+}
+
+.star-shape {
+  width: 20rem;
+}
+
+h5 {
+  font-family: "Rubik", sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 5rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+}
+
+@media (max-width: 1500px) {
+  * {
+    font-size: 55%;
+  }
+  #information-area {
+    height: 90%;
+  }
+}
+
+@media (max-width: 1340px) {
+  * {
+    font-size: 50%;
+  }
+  #information-area {
+    height: 80%;
+  }
+}
+
+@media (max-width: 1235px) {
+  * {
+    font-size: 45%;
+  }
+  #information-area {
+    height: 70%;
+  }
+}
+
+@media (max-width: 965px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 855px) {
+  * {
+    font-size: 70%;
+  }
+  /* body {
+    height: auto;
+  } */
+  header {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  #logo {
+    order: 2;
+    width: 35rem;
+  }
+
+  nav {
+    order: 1;
+  }
+
+  #social-links {
+    order: 3;
+  }
+  #information-area {
+    height: 100%;
+    align-items: center;
+    padding-top: 15rem;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 803px) {
+  * {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 690px) {
+  * {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  * {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 460px) {
+  * {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 30%;
+  }
+}
