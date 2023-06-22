@@ -159,6 +159,10 @@ h5 {
   * {
     font-size: 55%;
   }
+  body {
+    height: auto;
+  }
+
   #information-area {
     height: 90%;
   }
@@ -192,9 +196,6 @@ h5 {
   * {
     font-size: 70%;
   }
-  /* body {
-    height: auto;
-  } */
   header {
     flex-direction: column;
     gap: 5rem;
