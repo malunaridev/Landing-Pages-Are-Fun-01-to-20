@@ -160,7 +160,7 @@ h5 {
     font-size: 55%;
   }
   body {
-    height: auto;
+    height: 100%;
   }
 
   #information-area {
@@ -200,16 +200,13 @@ h5 {
     flex-direction: column;
     gap: 5rem;
   }
-
   #logo {
     order: 2;
     width: 35rem;
   }
-
   nav {
     order: 1;
   }
-
   #social-links {
     order: 3;
   }
@@ -233,20 +230,47 @@ h5 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 540px) {
+  * {
+    font-size: 45%;
+  }
+  body {
+    height: 100vh;
+  }
+  #information-area {
+    height: 70%;
+    padding-top: 25rem;
+  }
+}
+
+@media (max-width: 500px) {
   * {
     font-size: 40%;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
   * {
     font-size: 35%;
   }
+  #logo {
+    width: 45rem;
+  }
+  #information-area {
+    height: 70%;
+    padding-top: 35rem;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390px) {
   * {
     font-size: 30%;
+  }
+  #logo {
+    width: 55rem;
+  }
+  #information-area {
+    height: 70%;
+    padding-top: 55rem;
   }
 }
