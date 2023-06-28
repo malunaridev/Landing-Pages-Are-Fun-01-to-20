@@ -1,0 +1,273 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100dvh;
+  width: 100vw;
+  background-color: #292a2f;
+  color: #fff;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+body::after {
+  content: "";
+  width: 5rem;
+  height: 100%;
+  background: url(./assets/shape-1.png);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: -2rem;
+  right: 0;
+  z-index: -1;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 15rem;
+}
+
+.logo {
+  width: 20rem;
+  cursor: pointer;
+}
+
+#headerMenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+#headerMenu::before {
+  content: "";
+  width: 140rem;
+  height: 15rem;
+  background: url(./assets/menuBackground.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: -5rem;
+  z-index: -1;
+}
+
+.headerMenuItem {
+  font-size: 2rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  color: #fafff4;
+  cursor: pointer;
+}
+
+#socialAndSearch {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-right: 8rem;
+}
+
+#socialAndSearch::before {
+  content: "";
+  width: 85rem;
+  height: 15rem;
+  background: url(./assets/signUpBackground.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  z-index: -1;
+}
+
+#socialAndSearch::after {
+  content: "";
+  width: 105rem;
+  height: 20rem;
+  background: url(./assets/shape-2.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.socialIcon,
+.profileIcon {
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+input {
+  width: 16rem;
+  height: 3rem;
+  outline: 0;
+  border: 0;
+  border-radius: 3rem;
+}
+
+.searchInput {
+  width: 23rem;
+  height: 3rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  justify-content: space-around;
+}
+
+.searchButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: url(./assets/search.png);
+  background-size: cover;
+  border: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.signUpArea {
+  width: 13rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 6rem;
+  margin-top: 0.5rem;
+}
+
+.signUp {
+  font-size: 1.7rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mainContent {
+  width: 100%;
+  height: 91vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.heroImage {
+  height: 70rem;
+}
+
+#textContent {
+  width: 60rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 8rem;
+  margin-bottom: 8rem;
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 6rem;
+  color: #eaeaea;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 5rem;
+  margin-top: 3rem;
+  color: #eaeaea;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #eaeaea;
+}
+
+h4 {
+  font-size: 2rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  color: #eaeaea;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #eaeaea;
+}
+
+.line {
+  height: 0.1rem;
+  background-color: #eaeaea;
+  display: block;
+}
+
+.hero {
+  position: relative;
+}
+
+.imageSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: right;
+}
+
+.year {
+  font-size: 5rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  color: #eaeaea;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: -5rem;
+}
+
+.date {
+  width: 12rem;
+  font-size: 4rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  line-height: 4rem;
+  color: #eaeaea;
+  position: absolute;
+  top: -5rem;
+  left: 15rem;
+  text-align: justify;
+}
+
+.imageLinks {
+  width: 20rem;
+  cursor: pointer;
+}
+
+.squareShapes {
+  height: 8rem;
+}
