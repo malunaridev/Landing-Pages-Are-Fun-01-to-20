@@ -159,9 +159,6 @@ h5 {
   * {
     font-size: 55%;
   }
-  body {
-    height: 100%;
-  }
 
   #information-area {
     height: 90%;
@@ -196,6 +193,10 @@ h5 {
   * {
     font-size: 70%;
   }
+body {
+  height: auto;
+}
+
   header {
     flex-direction: column;
     gap: 5rem;
@@ -233,9 +234,6 @@ h5 {
 @media (max-width: 540px) {
   * {
     font-size: 45%;
-  }
-  body {
-    height: 100vh;
   }
   #information-area {
     height: 70%;
