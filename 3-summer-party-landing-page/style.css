@@ -193,10 +193,6 @@ h5 {
   * {
     font-size: 70%;
   }
-body {
-  height: auto;
-}
-
   header {
     flex-direction: column;
     gap: 5rem;
@@ -212,9 +208,8 @@ body {
     order: 3;
   }
   #information-area {
-    height: 100%;
     align-items: center;
-    padding-top: 15rem;
+    padding-top: 17rem;
     gap: 5rem;
   }
 }
@@ -223,11 +218,18 @@ body {
   * {
     font-size: 60%;
   }
+
+  #information-area {
+    padding-top: 25rem;
+  }
 }
 
 @media (max-width: 690px) {
   * {
     font-size: 50%;
+  }
+  #information-area {
+    padding-top: 40rem;
   }
 }
 
@@ -237,7 +239,7 @@ body {
   }
   #information-area {
     height: 70%;
-    padding-top: 25rem;
+    padding-top: 55rem;
   }
 }
 
@@ -255,8 +257,8 @@ body {
     width: 45rem;
   }
   #information-area {
-    height: 70%;
-    padding-top: 35rem;
+    height: 60%;
+    padding-top: 75rem;
   }
 }
 
@@ -268,7 +270,7 @@ body {
     width: 55rem;
   }
   #information-area {
-    height: 70%;
-    padding-top: 55rem;
+    height: 50%;
+    padding-top: 85rem;
   }
 }
