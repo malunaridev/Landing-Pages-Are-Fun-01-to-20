@@ -17,9 +17,9 @@ This is a personal project where I build some landing pages for fun. It helps me
 
 |         |             |    
 | :-------------:|:-------------:|
-| ![Landing page 1](./1-business-agency-concept/assets/Readme-files/Readme-Mockup.png) | ![Landing page 2](./2-flat-design-%20wellness-template/assets/Readme-files/Readme-Mockup.png)  |
+| ![Landing page 1](./1-business-agency-concept/assets/Readme-files/Readme-Mockup.png) | ![Landing page 2](./2-flat-design-wellness-template/assets/Readme-files/Readme-Mockup.png)  |
 | **Landing Page #1:** Business Agency Concept   | **Landing Page #2:** Flat Design Wellness Template  
-| **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/1-business-agency-concept) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept.vercel.app/) | **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/2-flat-design-%20wellness-template) \| **Live Preview:** [🌐](https://lpaf-2-wellness-template.vercel.app/) 
+| **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun/tree/master/1-business-agency-concept) \| **Live Preview:** [🌐](https://lpaf-business-agency-concept.vercel.app/) | **Code:** [📄](https://github.com/malunaridev/Landing-Pages-Are-Fun-01-to-10/tree/master/2-flat-design-wellness-template) \| **Live Preview:** [🌐](https://lpaf-2-wellness-template.vercel.app/) 
 
 <br />
 <br />
