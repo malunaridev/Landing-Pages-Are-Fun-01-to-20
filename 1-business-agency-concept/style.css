@@ -6,13 +6,16 @@
 body {
   background: #fdfdff;
   margin: 0;
-  max-width: 100vw;
+  max-width: 100vw; 
+  height: 100vh;
 }
 
 main {
   width: 100vw;
+ 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #image-section {
@@ -22,8 +25,8 @@ main {
   gap: 15rem;
 }
 
-#social-media ul {
-  font-size: 7rem;
+#socialIcons ul {
+  font-size: 9rem;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -31,7 +34,7 @@ main {
   padding-left: 2rem;
 }
 
-#social-media i {
+#socialIcons i {
   color: #7fdbbb;
   border: 0.2rem solid #7fdbbb;
   padding: 0.5rem;
@@ -44,17 +47,17 @@ main {
 }
 
 #content {
+  height: 100vh;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: space-between;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  padding-left: 8rem;
+  cursor: default;
 }
 
-#contentnav {
+#contentNav {
   display: flex;
-  justify-content: flex-end;
   gap: 5rem;
   padding-top: 3rem;
   padding-right: 3rem;
@@ -82,18 +85,17 @@ main {
   color: #7fdbbb;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .logo {
-  height: 5vh;
+  height: 7vh;
+  cursor: pointer;
 }
 
-#content-text {
+#contentText {
   font-family: "Poppins", sans-serif;
   font-size: 3rem;
-  text-align: end;
-  padding-right: 3rem;
 }
 
 h1 {
@@ -138,8 +140,7 @@ button:hover {
 }
 
 #contacts {
-  text-align: end;
-  padding-right: 0.7rem;
+  padding-left: 0.7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
