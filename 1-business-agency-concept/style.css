@@ -6,13 +6,12 @@
 body {
   background: #fdfdff;
   margin: 0;
-  max-width: 100vw; 
+  max-width: 100vw;
   height: 100vh;
 }
 
 main {
   width: 100vw;
- 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +38,12 @@ main {
   border: 0.2rem solid #7fdbbb;
   padding: 0.5rem;
   border-radius: 6rem;
-  list-style-type: none;
+  list-style-type: none;  
+  transition: 0.5s;
+}
+
+#socialIcons i:hover {
+  color: #50b893;
 }
 
 .header-image {
