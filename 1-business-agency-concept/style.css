@@ -10,15 +10,26 @@ body {
   height: 100vh;
 }
 
+#greenFrame {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 20px solid #bffe2d;
+  position: absolute;
+  z-index: 99;
+}
+
 main {
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  overflow: hidden;
 }
 
 #image-section {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   gap: 15rem;
@@ -38,7 +49,7 @@ main {
   border: 0.2rem solid #7fdbbb;
   padding: 0.5rem;
   border-radius: 6rem;
-  list-style-type: none;  
+  list-style-type: none;
   transition: 0.5s;
 }
 
@@ -47,7 +58,7 @@ main {
 }
 
 .header-image {
-  height: 100vh;
+  height: 100%;
 }
 
 #content {
