@@ -16,85 +16,110 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="greenFrame"></div>
-    <main>
-      <nav id="socialIcons">
-        <ul>
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-          </li>
-        </ul>
-      </nav>
-
-      <div id="content">
-        <div id="contentNav">
-          <img class="logo" src="./assets/logo.png" alt="geometric logotype" />
-          <nav id="navmenu">
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Info</a>
-              </li>
-              <li>
-                <a href="#">Offer</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div id="contentText">
-          <h1>
-            Business <br />
-            agency
-          </h1>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit pariatur
-            quibusdam voluptatem pariatur dolore.
-          </h2>
-          <button>Learn More</button>
-        </div>
-
-        <div id="footer">
-          <div class="icons">
-            <i class="fa-solid fa-mobile-screen"></i>
-            <i class="fa-solid fa-location-dot"></i>
-          </div>
-          <div id="contacts">
-            <div id="phone">
-              More Information call us <br />
-              <span>+91-878787-12345</span>
-            </div>
-            <div id="adress">
-              Av. Lorem ipsum dolor, 2045 <br />
-              Dolor sit Amet - Adress
-            </div>
-          </div>
-        </div>
+    <div id="creditsWindow" class="hide"></div>
+    <div
+      id="creditsWindowContent"
+      class="hide"
+      onclick="event.stopPropagation()"
+    >
+      <div id="close">X</div>
+      <div id="creditsText">
+        <h1>Teste</h1>
       </div>
+    </div>
+    <div id="greenFrame">
+      <span class="creditsText">Coded by MalunariDev — Design by Freepik</span>
 
-      <div id="image-section">
-        <img
-          class="header-image"
-          src="./assets/hero.png"
-          alt="a business woman and man standing back to back to each other and smiling"
-        />
-      </div>
-    </main>
+      <button id="clickMe" onclick="toggle(event)"></button>
+
+      <main>
+        <nav id="socialIcons">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div id="content">
+          <div id="contentNav">
+            <img
+              class="logo"
+              src="./assets/logo.png"
+              alt="geometric logotype"
+            />
+            <nav id="navmenu">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Info</a>
+                </li>
+                <li>
+                  <a href="#">Offer</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div id="contentText">
+            <h1>
+              Business <br />
+              agency
+            </h1>
+            <h2>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit pariatur
+              quibusdam voluptatem pariatur dolore.
+            </h2>
+            <button>Learn More</button>
+          </div>
+
+          <div id="footer">
+            <div class="icons">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div id="contacts">
+              <div id="phone">
+                More Information call us <br />
+                <span>+91-878787-12345</span>
+              </div>
+              <div id="adress">
+                Av. Lorem ipsum dolor, 2045 <br />
+                Dolor sit Amet - Adress
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="image-section">
+          <img
+            class="header-image"
+            src="./assets/hero.png"
+            alt="a business woman and man standing back to back to each other and smiling"
+          />
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
